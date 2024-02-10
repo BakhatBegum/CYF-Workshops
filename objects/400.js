@@ -17,7 +17,7 @@ function printSaladRecipe(forPerson) {
     };
 
     if (forPerson.eatsMeat) {
-        saladRecipe.push("chicken");
+        saladRecipe.ingredients.push("chicken");
         saladRecipe.steps.push("Mix in the chicken");
     }
 
@@ -44,3 +44,17 @@ const person2 = {
 printSaladRecipe(person1);
 console.log("");
 printSaladRecipe(person2);
+// ola to make salad
+// Get :
+// * lettuce",
+//* "corn", 
+//* "carrots", 
+// *"cucumber"
+
+//"Shred the lettuce",
+//"Cut the carrots into small pieces",
+//"Slice the cucumber",
+//"Mix all the vegetables together in a bowl",
+
+//printSaladRecipe(person2);
+// we get all key-values pairs same as  person1, but except for steve to make salad;

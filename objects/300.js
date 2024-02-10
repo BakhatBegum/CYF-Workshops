@@ -20,5 +20,9 @@ const sayed = {
     "focus": "SQL",
 }
 
-console.assert(checkLivesNearCYF(mo));
-console.assert(!checkLivesNearCYF(sayed));
+console.assert(checkLivesNearCYF(mo)); //true
+console.assert(!checkLivesNearCYF(sayed)); //false
+
+
+//ANS1; As because the code is look correct for me. So the output of the log for 'mo' will be true and 'sayed' will be false. 
+//ANS2; it will bring an output of true for mo and false to sayed.

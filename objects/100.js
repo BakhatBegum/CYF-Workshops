@@ -19,10 +19,10 @@ const person3 = person2;
 
 person3.location = "Manchester";
 
-console.log(person1.name);
-console.log(person2["name"]);
-console.log(person1.id_number > person2["id_number"]);
-console.log(person1.job);
-console.log(person1.location === person2.location);
-console.log(person1.location === person3.location);
-console.log(person2.location === person3.location);
+console.log(person1.name); //Abdi
+console.log(person2["name"]); //shadi
+console.log(person1.id_number > person2["id_number"]);// false
+console.log(person1.job); // we don n ot have any job object in person1;
+console.log(person1.location === person2.location);// false
+console.log(person1.location === person3.location); // false
+console.log(person2.location === person3.location); // true
